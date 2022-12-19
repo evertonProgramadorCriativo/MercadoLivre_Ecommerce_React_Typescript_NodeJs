@@ -220,6 +220,7 @@ export const InputSearchButton = styled.button`
 export const ButtonShoppingCard = styled.button`
   position: relative;
   width: 2.1rem;
+  top: -2.3rem;
 
   > svg {
     @media (max-width: 1024px) {
@@ -230,6 +231,12 @@ export const ButtonShoppingCard = styled.button`
 
     }
   }
+
+  @media (max-width: 600px) {
+    
+    top: 0px;
+
+    }
 `;
 
 export const InputSearchButtonVerticalLine = styled.hr`
