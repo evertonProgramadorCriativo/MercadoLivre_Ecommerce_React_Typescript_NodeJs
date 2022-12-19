@@ -19,13 +19,19 @@ import {
   ContainerItensSubFooter,
   ColunaSubFooterList,
   RowSubFooter,
+  ColunaSpanCopyright ,
   SpanCopyright,
   InfoContainerButtonMais,
   ContainerSubMenuFooterBackgrand,
-  TituloFooter,
+  CardIpad,
   ImagemCardLeve1,
   ImagemCardLeve2,
   ImagemCardLeve3,
+  Ipad2ColInfoFooter,
+  Ipad6ColInfoFooter,
+  IpadRowSubFooter,
+  IpadSubFooter6List,
+  IpadSubFooter2List
 } from "./styles";
 import PaymentSrc from "../../Logo/payment.svg";
 import ProtectedSrc from "../../Logo/protected.svg";
@@ -39,9 +45,12 @@ const Footer: React.FC = () => {
   return (
     <React.Fragment>
       <Container>
-        <TituloFooter>Ofertas Mercado livre</TituloFooter>
+       
         <Containe>
           <Row>
+            <CardIpad>
+
+           
             <Column grid="4">
               <Card>
                 <ImagemCardLeve1 src={PaymentSrc} />
@@ -84,7 +93,9 @@ você tem frete grátis em milhares de produtos.
                   <SpanCard>Como te protegemos</SpanCard>
                 </ContainerFooterTerceiro>
               </Card>
+             
             </Column>
+             </CardIpad>
           </Row>
         </Containe>
 
@@ -103,6 +114,7 @@ você tem frete grátis em milhares de produtos.
 
           {ativado3 ? (
             <ContainerSubMenuFooterBackgrand>
+             <Ipad2ColInfoFooter>
               <Containe>
                 <Row>
                   <Column grid="12">
@@ -124,6 +136,35 @@ você tem frete grátis em milhares de produtos.
                         <RowInfo>Mercado ads</RowInfo>
                         <RowInfo>Mercado LIvre Ideias</RowInfo>
                       </ColunaDeMaisInfo>
+                    
+                    </ContanierDasColunas>
+                  </Column>
+                </Row>
+              </Containe>
+              </Ipad2ColInfoFooter>
+              <Ipad6ColInfoFooter>
+              <Containe>
+                <Row>
+                  <Column grid="12">
+                    <ContanierDasColunas>
+                      <ColunaDeMaisInfo>
+                        <RowEmDestaque>Sobre o</RowEmDestaque>
+                        <RowInfo>Mercado Livre</RowInfo>
+                        <RowInfo>Investor relations</RowInfo>
+                        <RowInfo>Tendências</RowInfo>
+                        <RowInfo>Sustentabilidade</RowInfo>
+                      </ColunaDeMaisInfo>
+
+                      <ColunaDeMaisInfo>
+                        <RowEmDestaque>Outros Sites</RowEmDestaque>
+                        <RowInfo>Desenvolvedores</RowInfo>
+                        <RowInfo>Mercado Pago</RowInfo>
+                        <RowInfo>Mercado Envios</RowInfo>
+                        <RowInfo>Mercado Shops</RowInfo>
+                        <RowInfo>Mercado ads</RowInfo>
+                        <RowInfo>Mercado LIvre Ideias</RowInfo>
+                      </ColunaDeMaisInfo>
+                       
                       <ColunaDeMaisInfo>
                         <RowEmDestaque>Contato</RowEmDestaque>
                         <RowInfo>Comprar</RowInfo>
@@ -154,10 +195,12 @@ você tem frete grátis em milhares de produtos.
                         <RowInfo>Paramount+</RowInfo>
                         <RowInfo>Deezer</RowInfo>
                       </ColunaDeMaisInfo>
+                     
                     </ContanierDasColunas>
                   </Column>
                 </Row>
               </Containe>
+              </Ipad6ColInfoFooter>
             </ContainerSubMenuFooterBackgrand>
           ) : null}
         </ContainerMaisInfo>
@@ -166,22 +209,38 @@ você tem frete grátis em milhares de produtos.
           <Row>
             <ContainerSubFooter>
               <ContainerItensSubFooter>
+                <IpadSubFooter6List>
                 <ColunaSubFooterList>
                   <RowSubFooter>Trabalhe Conosco</RowSubFooter>
                   <RowSubFooter>Termos e condições</RowSubFooter>
                   <RowSubFooter> Como Cuidamos da sua Privacidade</RowSubFooter>
-                  <RowSubFooter>Acessibilidade</RowSubFooter>
+                   <RowSubFooter>Acessibilidade</RowSubFooter>
                   <RowSubFooter>Contato</RowSubFooter>
                   <RowSubFooter>Informações sobre seguros</RowSubFooter>
+                   
                 </ColunaSubFooterList>
+                </IpadSubFooter6List>
+
+                <IpadSubFooter2List>
+                <ColunaSubFooterList>
+                  <RowSubFooter>Trabalhe Conosco</RowSubFooter>
+                  <RowSubFooter>Termos e condições</RowSubFooter>
+               
+                </ColunaSubFooterList>
+                </IpadSubFooter2List>
+
+                <ColunaSpanCopyright>
                 <SpanCopyright>
                   Copyright © 1999-2022 Ebazar.com.br LTDA.
                 </SpanCopyright>
+                <IpadRowSubFooter>
                 <SpanCopyright>
                   CNPJ n.º 03.007.331/0001-41 / Av. das Nações Unidas, nº 3.003,
                   Bonfim, Osasco/SP - CEP 06233-903 - empresa do grupo Mercado
                   Livre.
                 </SpanCopyright>
+                </IpadRowSubFooter>
+                </ColunaSpanCopyright>
               </ContainerItensSubFooter>
             </ContainerSubFooter>
           </Row>

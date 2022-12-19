@@ -1,0 +1,254 @@
+.Container{
+    
+background-color: red;
+height: 50rem;
+position: relative;
+} 
+
+.slick-initialized{
+    height: 550px;
+  
+}
+.slick-list{ 
+    height: 500px;
+    margin-top: 2rem !important;}
+.Card {
+    width: 22.4rem;
+    height: 33rem;
+    background: white;
+    
+    margin-left: 1.4rem;
+ 
+}
+
+.Card--1 {
+    width: 22.4rem;
+    height: 33rem;
+    background: white;
+    
+    margin-left: 1.4rem;
+ 
+}
+.Card--1:hover {
+    width: 22.4rem;
+    height: 40rem;
+    background: white;
+    
+    margin-left: 1.4rem;
+ 
+}
+.BoxarrowDayLeft{
+    height: 6rem;
+    width: 6rem;
+    background: white;
+    border-radius: 50%;
+    position: relative;
+    top: 18.6rem;
+    left: -2.1rem  !important;
+    z-index: 55;
+    visibility:hidden;
+}
+   
+.BoxarrowDayRigth{
+    height: 6rem;
+    width: 6rem;
+    background: white;
+    border-radius: 50%;
+    position: relative;
+   
+    top: -39.1rem;
+    left: 116.6rem !important;
+    z-index: 55;
+    visibility:hidden;
+}
+
+.slick-slider:hover .BoxarrowDayLeft{
+    height: 6rem;
+    width: 6rem;
+    background: white;
+    border-radius: 50%;
+    position: relative;
+    top: 18.6rem;
+    left: -3.1rem;
+    z-index: 55;
+    visibility:visible;
+}
+
+.slick-slider:hover .BoxarrowDayRigth{
+    height: 6rem;
+    width: 6rem;
+    background: white;
+    border-radius: 50%;
+    position: relative;
+   
+    top: -39.1rem;
+    left: 120.8rem;
+    z-index: 55;
+    visibility:visible;
+}
+ 
+.arrowDayLeft{
+    height: 3rem;
+    position: absolute;
+    width: 3rem;
+    top: 1.4rem;
+    left: 1.3rem;
+  
+}
+   
+.arrowDayRigth{
+    height: 3rem;
+    position: absolute;
+    width: 3rem;
+    top: 1.4rem;
+    left: 1.3rem;
+    transform: rotate(180deg);
+}
+.Box  {
+border-top: solid 1px #0000005e;
+}
+ 
+
+.BoxPrice {
+margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+
+.Title{  
+font-weight: 400;
+    font-size: 2.4rem;
+    position: relative;
+    color: #333;
+ }
+
+.Coin { 
+position: absolute;
+    font-size: 1.5rem;
+    top: 2px;
+ }
+
+.Discount  {
+font-size: 1.2rem;
+    color: #00a650;
+    margin-right: 3rem;
+ }
+.Installment {
+display: flex;
+    margin-left: -5.8rem;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+    margin-top: 5px;
+ }
+
+.Fees { 
+font-size: 1.2rem;
+    color: #00a650;
+    margin-right: 0px;
+    margin-left: -7.3rem;
+ 
+}
+.Shipping { 
+display: flex;
+    justify-content: space-evenly;
+    color: #00a650;
+    font-size: 1.2rem;
+    margin-left: -7.8rem;
+    margin-top: 6px;
+ }
+ 
+.Full {
+margin-left: -9.7rem;
+ }
+
+.Description {
+font-size: 1.2rem;
+    padding: 3 5px;
+    background: white;
+    margin-top: 1.1rem;
+ }
+
+.DayOfferButtonLeft{
+    visibility: hidden;
+    height: 6.4rem;
+    width: 6.4rem;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    z-index: 55;
+    top: 25%;
+    left: 2.4rem;
+
+   
+ 
+ }
+
+.DayOfferButtonRight{
+    height: 6.4rem;
+    width: 6.4rem;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    z-index: 55;
+    top: 25%;
+    right: 0;
+    visibility: hidden;
+}
+
+.carousel-root:hover .DayOfferButtonRight{
+    height: 6.4rem;
+    width: 6.4rem;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    z-index: 55;
+    top: 25%;
+    right: 0;
+    visibility:visible !important;
+}
+
+.carousel-root:hover .DayOfferButtonLeft{
+    visibility: visible;
+    height: 6.4rem;
+    width: 6.4rem;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    z-index: 55;
+    top: 25%;
+    left: 2.4rem;
+}
+
+.boxDescricao-1{
+padding: 1rem 0.5rem 0.2rem 0.5rem;
+visibility: hidden;
+}
+
+ 
+
+.boxDescricao-1{
+    padding: 1.4rem 0.9rem 0.2rem 0.9rem;
+    visibility: hidden;
+    }
+    
+    .DescricaoTexto-1{
+        font-size: 1.4rem;
+        color: #333;
+        visibility: hidden;
+    }
+
+.Card--1:hover  .boxDescricao-1 .DescricaoTexto-1 {
+    visibility:visible;
+}
+
+@media (max-width: 1024px) {
+ .slick-slide  {
+    width: 250px !important;
+}   
+}
+@media (max-width: 600px) {
+    .slick-slide  {
+       width: 300px !important;
+   }
+}

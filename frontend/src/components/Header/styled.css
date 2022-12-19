@@ -1,0 +1,66 @@
+.linhaSutitulo{
+    color: #333 !important;
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+ 
+.colunalinhaMenu {
+    padding-top: 30px;
+    height: 180px;
+}
+
+ 
+  .SecondDropdownListColuna{
+    width: 250px;
+    height: 100px;
+  }
+
+  .linhaSecondDropdown{
+    margin-bottom: 1rem;
+  }
+
+  .linhaGameSecondDropdown{
+    margin-bottom: 0.5rem;
+  }
+  .TituloContainer{
+  display: flex;
+  justify-content: center;
+  }
+
+ .TituloSecondDropdown{
+height: 48px;
+  }
+  .ConteinerSecondDropDown{
+    display: flex;
+  }
+  .TituloBarraSecondDropdown{
+    height: 1px;
+    position: relative;
+    top: -12px;
+    left: -13px;
+    
+    background: #33333369;
+  }
+
+  .ButtonHanderArrowWhite{
+    height: 1rem;
+ 
+    transform: rotate(-90deg);
+ 
+    margin-left: 0.5rem;
+}
+ 
+.ButtonHanderDropDwonArrowWhite{
+  height: 1rem;
+
+  transform: rotate(180deg);
+
+  margin-right: 2rem;
+}
+
+.rowDropDown{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

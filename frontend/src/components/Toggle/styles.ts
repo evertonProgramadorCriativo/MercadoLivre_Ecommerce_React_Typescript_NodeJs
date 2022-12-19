@@ -2,11 +2,11 @@
 import styled from "styled-components";
 import Switch , { ReactSwitchProps } from 'react-switch'
 export const Container = styled.div`
-     margin-top: 10px;
-    margin-right: 75px;
+     margin-top: 1rem;
+    margin-right: 7.5rem;
 `;
 export const ImagemDiaOuNoite = styled.img`
- height: 25px;
+ height: 2.5rem;
 `;
 
 
@@ -14,6 +14,6 @@ export const ImagemDiaOuNoite = styled.img`
 export const  ToggleSelector = styled(Switch).attrs<ReactSwitchProps>(
     ({ theme }) => ({
         onColor: theme.colors.white,
-        offCOlor: theme.colors.black,
+        offColor: theme.colors.black,
     })
 )<ReactSwitchProps>``;

@@ -1,0 +1,200 @@
+ 
+ .carousel.carousel-slider .control-arrow:hover {
+    background: transparent !important;
+    color: white;
+   
+}
+
+.slide > div > img {
+    background: white!important;
+   
+   
+}
+
+.carousel-root:hover .ButtonLeft {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    z-index: 55;
+    top: 40%;
+    left: 1%;
+    visibility:visible !important;
+}
+
+.ButtonLeft {
+ visibility: hidden;
+ height: 50px;
+ width: 50px;
+ border-radius: 50%;
+ background-color: white;
+ position: absolute;
+ z-index: 55;
+ top: 40%;
+    left: 1%;
+  }
+ 
+ 
+.ButtonRight{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    z-index: 55;
+    top: 40%;
+    right: 9%;
+    visibility: hidden;
+}
+.arrowDay{
+    height: 60px;
+    width: 60px;
+}
+
+.carousel-root:hover .ButtonRight {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    z-index: 55;
+    top: 40%;
+    right: 9%;
+    visibility:visible !important;
+}
+
+.ButtonRight > img{
+    transform: rotate(175deg);
+}
+.carousel .control-dots .dot {
+    transition: opacity .25s ease-in;
+    opacity: .3;
+    filter: alpha(opacity=30);
+    box-shadow: 1px 1px 2px rgb(0 0 0 / 90%);
+    background: #fde804 !important;
+    border-radius: 50%;
+    width: 10px !important;
+    height: 10px !important;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 8px;
+
+
+}
+
+
+   
+    @media (max-width: 1024px) {
+        .carousel .control-dots .dot {
+       
+        background: #fde804 !important;
+      }
+
+}
+
+ 
+  
+    @media (max-width: 1024px) {
+        .carousel .control-dots {
+            position: absolute;
+            bottom: 0;
+            margin: 10px 0;
+            padding: 0;
+            text-align: center;
+            width: 100%;
+            z-index: 1;
+            left: -20%;
+        }
+
+        .ButtonRight{
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            background-color: white;
+            position: absolute;
+            z-index: 55;
+            top: 40%;
+            right: 44%;
+            visibility: hidden;
+        }
+       
+.carousel-root:hover .ButtonRight {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    z-index: 55;
+    top: 40%;
+    right: 44%;
+    visibility:visible !important;
+}
+
+.carousel-root:hover .ButtonLeft {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    z-index: 55;
+    top: 40%;
+    left: 1%;
+    visibility:visible !important;
+}
+
+.ButtonLeft {
+ visibility: hidden;
+ height: 50px;
+ width: 50px;
+ border-radius: 50%;
+ background-color: white;
+ position: absolute;
+ z-index: 55;
+ top: 40%;
+    left: 1%;
+  }
+ 
+      }
+      @media (max-width: 600px) {
+        .carousel .control-dots {
+            position: absolute;
+            bottom: 0;
+            margin: 10px 0;
+            padding: 0;
+            text-align: center;
+            width: 100%;
+            z-index: 1;
+            left: -27%;
+        }
+
+        .ButtonRight{
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            background-color: white;
+            position: absolute;
+            z-index: 55;
+            top: 40%;
+            right: 57%;
+            visibility: hidden;
+        }
+       
+.carousel-root:hover .ButtonRight {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    z-index: 55;
+    top: 40%;
+    right: 57%;
+    visibility:visible !important;
+}
+
+
+      }
+
+.carousel .carousel-status {
+    display: none !important;
+}

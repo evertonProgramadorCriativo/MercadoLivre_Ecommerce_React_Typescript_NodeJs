@@ -2,19 +2,28 @@ import styled from "styled-components";
 
 export const Container = styled.div`
 display: grid;
-grid-template-columns: auto  ;
-grid-template-rows: 100px 510px 890px   398px 515px 473px 650px;
+grid-template-columns: 134.3rem    ;
+grid-template-rows: 10rem  100rem   55rem !important;
 grid-template-areas: 
 'Herder '
-'Banner '
-'OfertaDoDia'
-'OutrasLojas' 
-' Interessar ' 
-' Polulares'
- 'Footer'
+'ContentMain'
+'Footer'
 ;
 height: 100vh;
 
+
+@media (max-width: 600px) {
+    display: grid;
+grid-template-columns: 134.3rem    ;
+grid-template-rows: 15rem  100rem   55rem !important;
+grid-template-areas: 
+'Herder '
+'ContentMain'
+'Footer'
+;
+height: 100vh;
+ 
+  }
 `;
 /**
  * header 100 px altura Lagura full

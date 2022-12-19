@@ -1,10 +1,11 @@
 import React from "react";
+import ContentMain from "../../components/ContentMain";
 
 const Dashboard: React.FC = () => {
   return (
-    <React.Fragment>
-      <h1>Dashboard</h1>
-    </React.Fragment>
+    <div> 
+      <ContentMain />
+      </div>
   );
 };
 export default Dashboard;

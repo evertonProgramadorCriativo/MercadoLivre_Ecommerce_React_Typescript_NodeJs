@@ -4,27 +4,27 @@ import { Container } from './styles';
 
 import Header from "../Header";
 import Footer from "../Footer";
-import SectionCarousel from "../SectionCarousel";
-import SectionDayOffer from "../SectionDayOffer";
-import SectionInterest from "../SectionInterest";
-import SectionOtherStores from "../SectionOtherStores";
-import SectionPopularCategories from "../SectionPopularCategories";
+ 
+import Content from '../Content';
+ 
+type Props = {
+  children?: React.ReactNode
+};
  
 
 
-const Layout: React.FC = () => {
+const Layout: React.FC<Props> = ({ children }) => {
   return (
     <React.Fragment>
       <Container>
-       <Header />
-       <SectionCarousel />
-       <SectionDayOffer />
-       <SectionInterest />
-       <SectionOtherStores />
-       <SectionPopularCategories />
-       <Footer />
-
-      </Container>
+            
+            <Header />
+          <Content>
+                { children }
+            </Content>
+          <Footer />
+           
+     </Container>
       
     </React.Fragment>
   );
