@@ -56,7 +56,7 @@ export const MenuIpad = styled(GrMenu)`
   height: 3.4rem;
 width: 7rem;
 margin-top:1rem; 
-margin-left: 30px;
+margin-left: 3rem;
   }
 
 
@@ -65,7 +65,7 @@ export const LogoIpad = styled.img`
  display: none;
   @media (max-width: 1024px) {
     display: block;
-    margin-right: 18px;
+    margin-right: 1.8rem;
   }
 
  
@@ -73,11 +73,11 @@ export const LogoIpad = styled.img`
 `;
 export const CepIcon = styled.img`
   
-  font-size: 21px !important;
-    width: 20px !important;
+  font-size: 2.1rem !important;
+    width: 2rem !important;
     position: relative !important;
-    left: -36px !important;
-    top: -2px;
+    left: -3.6rem !important;
+    top: -0.2rem;
     border: 0 !important;
     outline: none !important;
 
@@ -98,7 +98,7 @@ export const CepContainer = styled.div`
 
  
   &:hover{
-    border: solid 1px white !important;
+    border: solid 0.1rem white !important;
     cursor: pointer;
     height: 4rem;
  
@@ -187,7 +187,7 @@ export const InputSearch = styled.input`
 
   @media (max-width: 1024px) {
     font-size: 1.7rem;
-    width: 49.8rem;
+   
     height: 5.5rem;
     padding-left: 2rem;
    
@@ -207,11 +207,11 @@ export const InputSearchButton = styled.button`
     font-size: 2.5rem;
 
     position: absolute;
-    top: 4px;
+    top: 0.4rem;
     color: #b7b7b7;
     @media (max-width: 1024px) {
-      top: 16px;
-      right: -6px;
+      top: 1.3rem;
+    right: -1.2rem;
    
   }
   }
@@ -227,7 +227,15 @@ export const ButtonShoppingCard = styled.button`
       font-size: 3.5rem;
     position: absolute;
     color: #505050;
-    top: -10px;
+    top: -1rem;
+
+    }
+
+    @media (max-width: 900px) {
+      font-size: 3.5rem;
+    position: absolute;
+    color: #505050;
+    top: -1rem;
 
     }
   }
@@ -240,9 +248,16 @@ export const ButtonShoppingCard = styled.button`
 `;
 
 export const InputSearchButtonVerticalLine = styled.hr`
-  border-left: 1px solid #b7b7b7;
+  border-left: 0.1rem solid #b7b7b7;
   height: 2rem;
- 
+
+  @media (max-width: 1024px) {
+    
+    border-left: 0.1rem solid #b7b7b7;
+    height: 2.8rem;
+    margin-bottom: -5px;
+    }
+   
 `;
 
 export const ContainerMenu = styled.div`
@@ -264,7 +279,7 @@ export const ContainerMenuTerceiro = styled.div`
 
 export const ButtonHandler = styled.button`
   background: transparent;
-  margin-left: -9px;
+  margin-left: -0.9rem;
   color: white;
   z-index: 55;
   display: flex;
@@ -292,7 +307,7 @@ export const ColumnMenuCommerceSegundo = styled.ul`
   display: flex;
   justify-content: space-around;
   width: 30rem;
-  margin-top: 20px;
+  margin-top: 2rem;
 
  
 `;
@@ -324,12 +339,12 @@ export const ModalCep = styled.div`
 
 export const Box = styled.div`
   position: fixed;
-    top: 178px;
-    width: 672px;
-    left: 227px;
+    top: 17.8rem;
+    width: 67.2rem;
+    left: 22.7rem;
     background: white;
     z-index: 100;
-    height: 262px;
+    height: 26.2rem;
     color: #000;
     z-index: 57;
     
@@ -337,73 +352,73 @@ export const Box = styled.div`
 `;
 
 export const BoxPrimeiro = styled.div`
-  height: 118px;
+  height: 11.8rem;
   align-items: center;
   display: flex;
-  padding: 0 40px;
+  padding: 0 4rem;
 
  
 `;
 
 export const BoxTitulos = styled.div`
-  font-size: 15px;
+  font-size: 1.5rem;
   display: flex;
   flex-direction: column;
 
  
 `;
 export const Titulo = styled.span`
-  margin-bottom: 6px;
-  font-size: 25px;
+  margin-bottom: 0.6rem;
+  font-size: 2.5rem;
 
  
 `;
 export const Subtitulo = styled.span`
-  font-size: 12px;
-  margin-left: 43px;
-  margin-top: 5px;
+  font-size: 1.2rem;
+  margin-left: 4.3rem;
+  margin-top: 0.5rem;
 
  
 `;
 export const ButtonFecha = styled.img`
-height: 25px;
+height: 2.5rem;
 position: relative;
-top: -9px;
-left: 75px;
+top: -0.9rem;
+left: 7.5rem;
 cursor: pointer;`;
 export const BoxSegundo = styled.div`
-  font-size: 20px;
+  font-size: 2rem;
   display: flex;
   justify-content: space-evenly;
 `;
 export const BoxInput = styled.div`
-  margin-left: -151px;
+  margin-left: -15.1rem;
 `;
 export const Descricao = styled.label``;
 export const FormCep = styled.form``;
 export const Input = styled.input`
-  height: 51px;
-  width: 270px;
-  border-radius: 10px;
+  height: 5.1rem;
+  width: 27rem;
+  border-radius: 1rem;
   color: #333;
-  border: 3px solid #3483fa !important;
-  padding: 1px 2px 1px 6px;
+  border: 0.3rem solid #3483fa !important;
+  padding: 0.1rem 0.2rem 0.1rem 0.6rem;
   margin-top: 1rem;
 `;
 export const ButtonEnviar = styled.button`
-  width: 57px;
-  height: 32px;
-  border-radius: 10px;
-  font-size: 13px;
+  width: 5.7rem;
+  height: 3.2rem;
+  border-radius: 1rem;
+  font-size: 1.3rem;
   font-weight: 600;
   color: white;
-  margin-left: -63px;
+  margin-left: -6.3rem;
   background: #3483fa;
 `;
 export const NaoCep = styled.span`
-  margin-top: 46px;
-  font-size: 13px;
-  margin-left: -426px;
+  margin-top: 4.6rem;
+  font-size: 1.3rem;
+  margin-left: -42.6rem;
   color: blue;
   font-weight: 600;
   cursor: pointer;

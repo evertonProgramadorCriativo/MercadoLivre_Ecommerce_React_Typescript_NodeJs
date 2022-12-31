@@ -71,14 +71,14 @@
     transition: opacity .25s ease-in;
     opacity: .3;
     filter: alpha(opacity=30);
-    box-shadow: 1px 1px 2px rgb(0 0 0 / 90%);
+    box-shadow: 0.1rem 0.1rem 0.2rem rgb(0 0 0 / 90%);
     background: #fde804 !important;
     border-radius: 50%;
-    width: 10px !important;
-    height: 10px !important;
+    width: 1rem !important;
+    height: 1rem !important;
     cursor: pointer;
     display: inline-block;
-    margin: 0 8px;
+    margin: 0  0.8rem;
 
 
 }
@@ -99,7 +99,7 @@
         .carousel .control-dots {
             position: absolute;
             bottom: 0;
-            margin: 10px 0;
+            margin: 1rem 0;
             padding: 0;
             text-align: center;
             width: 100%;
@@ -108,32 +108,32 @@
         }
 
         .ButtonRight{
-            height: 50px;
-            width: 50px;
+            height: 5rem;
+            width: 5rem;
             border-radius: 50%;
             background-color: white;
             position: absolute;
             z-index: 55;
             top: 40%;
-            right: 44%;
+            right: 38%;
             visibility: hidden;
         }
        
 .carousel-root:hover .ButtonRight {
-    height: 50px;
-    width: 50px;
+    height:5rem;
+    width: 5rem;
     border-radius: 50%;
     background-color: white;
     position: absolute;
     z-index: 55;
     top: 40%;
-    right: 44%;
+    right: 38%;
     visibility:visible !important;
 }
 
 .carousel-root:hover .ButtonLeft {
-    height: 50px;
-    width: 50px;
+    height: 5rem;
+    width: 5rem;
     border-radius: 50%;
     background-color: white;
     position: absolute;
@@ -145,8 +145,8 @@
 
 .ButtonLeft {
  visibility: hidden;
- height: 50px;
- width: 50px;
+ height:5rem;
+ width: 5rem;
  border-radius: 50%;
  background-color: white;
  position: absolute;
@@ -160,7 +160,7 @@
         .carousel .control-dots {
             position: absolute;
             bottom: 0;
-            margin: 10px 0;
+            margin: 1rem 0;
             padding: 0;
             text-align: center;
             width: 100%;
@@ -169,26 +169,26 @@
         }
 
         .ButtonRight{
-            height: 50px;
-            width: 50px;
+            height: 5rem;
+            width: 5rem;
             border-radius: 50%;
             background-color: white;
             position: absolute;
             z-index: 55;
             top: 40%;
-            right: 57%;
+            right: 52%;
             visibility: hidden;
         }
        
 .carousel-root:hover .ButtonRight {
-    height: 50px;
-    width: 50px;
+    height: 5rem;
+    width: 5rem;
     border-radius: 50%;
     background-color: white;
     position: absolute;
     z-index: 55;
     top: 40%;
-    right: 57%;
+    right: 52%;
     visibility:visible !important;
 }
 

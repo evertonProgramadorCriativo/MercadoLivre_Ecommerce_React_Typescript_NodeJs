@@ -52,8 +52,8 @@ interface BoxProps {
  
 export const Column = styled(Box)`
 width: 100%;
- padding: .25rem;
- min-height: 1px;
+ padding: 0.25rem;
+ min-height: 0.1rem;
  float: left;
 
  font-size: 2.2rem;

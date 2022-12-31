@@ -119,7 +119,7 @@ você tem frete grátis em milhares de produtos.
                 <Row>
                   <Column grid="12">
                     <ContanierDasColunas>
-                      <ColunaDeMaisInfo>
+                    <ColunaDeMaisInfo>
                         <RowEmDestaque>Sobre o</RowEmDestaque>
                         <RowInfo>Mercado Livre</RowInfo>
                         <RowInfo>Investor relations</RowInfo>
@@ -135,6 +135,37 @@ você tem frete grátis em milhares de produtos.
                         <RowInfo>Mercado Shops</RowInfo>
                         <RowInfo>Mercado ads</RowInfo>
                         <RowInfo>Mercado LIvre Ideias</RowInfo>
+                      </ColunaDeMaisInfo>
+                       
+                      <ColunaDeMaisInfo>
+                        <RowEmDestaque>Contato</RowEmDestaque>
+                        <RowInfo>Comprar</RowInfo>
+                        <RowInfo>Vender</RowInfo>
+                        <RowInfo>Solução de problemas</RowInfo>
+                        <RowInfo>Segurança</RowInfo>
+                      </ColunaDeMaisInfo>
+                      <ColunaDeMaisInfo>
+                        <RowEmDestaque>Redes sociais</RowEmDestaque>
+                        <RowInfo>Twitter</RowInfo>
+                        <RowInfo>Facebook</RowInfo>
+                        <RowInfo>Instagram</RowInfo>
+                        <RowInfo>Youtube</RowInfo>
+                      </ColunaDeMaisInfo>
+                      <ColunaDeMaisInfo>
+                        <RowEmDestaque>Minha Conta</RowEmDestaque>
+                        <RowInfo>Entre</RowInfo>
+                        <RowInfo>Vender</RowInfo>
+                      </ColunaDeMaisInfo>
+                      <ColunaDeMaisInfo>
+                        <RowEmDestaque>Mercado Pontos</RowEmDestaque>
+                        <RowInfo>Nivel 6</RowInfo>
+                        <RowInfo>Disney+</RowInfo>
+
+                        <RowInfo>Star+</RowInfo>
+                        <RowInfo>HBO MAX</RowInfo>
+
+                        <RowInfo>Paramount+</RowInfo>
+                        <RowInfo>Deezer</RowInfo>
                       </ColunaDeMaisInfo>
                     
                     </ContanierDasColunas>
@@ -223,8 +254,13 @@ você tem frete grátis em milhares de produtos.
 
                 <IpadSubFooter2List>
                 <ColunaSubFooterList>
-                  <RowSubFooter>Trabalhe Conosco</RowSubFooter>
+                <RowSubFooter>Trabalhe Conosco</RowSubFooter>
                   <RowSubFooter>Termos e condições</RowSubFooter>
+                  <RowSubFooter> Como Cuidamos da sua Privacidade</RowSubFooter>
+                   <RowSubFooter>Acessibilidade</RowSubFooter>
+                  <RowSubFooter>Contato</RowSubFooter>
+                  <RowSubFooter>Informações sobre seguros</RowSubFooter>
+                   
                
                 </ColunaSubFooterList>
                 </IpadSubFooter2List>

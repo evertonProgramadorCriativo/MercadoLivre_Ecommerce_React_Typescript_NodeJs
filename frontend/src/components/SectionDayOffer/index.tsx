@@ -48,8 +48,8 @@ const SectionDayOffer: React.FC = () => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToShow: 4,
+          slidesToScroll: 4,
           infinite: false,
           dots: false
         }
@@ -57,16 +57,16 @@ const SectionDayOffer: React.FC = () => {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToShow: 4,
+          slidesToScroll: 5,
           initialSlide: 2
         }
       },
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
+          slidesToShow: 4,
+          slidesToScroll: 5
         }
       }
        
@@ -92,7 +92,7 @@ const SectionDayOffer: React.FC = () => {
       <Slider {...settings}>
                <div>
                   <div className="Card--1"  >
-                    <img className="" src={Impresora} />
+                    <img className="ImgCard" src={Impresora} />
                     <div className="Box">
                       <div className="BoxPrice ">
                         <p className="Title">
@@ -117,7 +117,7 @@ const SectionDayOffer: React.FC = () => {
                </div>
                <div>
                   <div className="Card"  >
-                    <img className="" src={Impresora} />
+                    <img className="ImgCard" src={Impresora} />
                     <div className="Box">
                       <div className="BoxPrice ">
                         <p className="Title">
@@ -137,7 +137,7 @@ const SectionDayOffer: React.FC = () => {
                </div>
                <div>
                   <div className="Card"  >
-                    <img className="" src={Impresora} />
+                    <img className="ImgCard" src={Impresora} />
                     <div className="Box">
                       <div className="BoxPrice ">
                         <p className="Title">
@@ -158,7 +158,7 @@ const SectionDayOffer: React.FC = () => {
                </div>
                <div>
                   <div className="Card" >
-                    <img className="" src={Impresora} />
+                    <img className="ImgCard" src={Impresora} />
                     <div className="Box">
                       <div className="BoxPrice ">
                         <p className="Title">
@@ -179,7 +179,7 @@ const SectionDayOffer: React.FC = () => {
                </div> 
                <div>
                   <div className="Card"  >
-                    <img className="" src={Impresora} />
+                    <img className="ImgCard" src={Impresora} />
                     <div className="Box">
                       <div className="BoxPrice ">
                         <p className="Title">
@@ -200,7 +200,7 @@ const SectionDayOffer: React.FC = () => {
                </div>
                <div>
                   <div className="Card" >
-                    <img className="" src={Impresora} />
+                    <img className="ImgCard" src={Impresora} />
                     <div className="Box">
                       <div className="BoxPrice ">
                         <p className="Title">
@@ -221,7 +221,7 @@ const SectionDayOffer: React.FC = () => {
                </div>
                <div>
                   <div className="Card"  >
-                    <img className="" src={Impresora} />
+                    <img className="ImgCard" src={Impresora} />
                     <div className="Box">
                       <div className="BoxPrice ">
                         <p className="Title">
@@ -242,7 +242,7 @@ const SectionDayOffer: React.FC = () => {
                </div>
                <div>
                   <div className="Card"  >
-                    <img className="" src={Impresora} />
+                    <img className="ImgCard" src={Impresora} />
                     <div className="Box">
                       <div className="BoxPrice ">
                         <p className="Title">

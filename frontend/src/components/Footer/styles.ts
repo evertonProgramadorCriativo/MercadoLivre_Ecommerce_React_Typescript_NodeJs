@@ -10,11 +10,11 @@ export const Card = styled.div`
 
   display: flex;
   flex-direction: column;
-  margin-bottom: 120px;
-  margin-top: 100px;
+  margin-bottom: 12rem;
+  margin-top: 10rem;
   > svg {
     color: blue;
-    font-size: 70px;
+    font-size: 7rem;
   }
 `;
 export const ContainerFooterTerceiro = styled.div`
@@ -39,14 +39,14 @@ margin-left: 20%;
 `;
 export const ImagemIcon = styled.img``;
 export const SubTituloCard = styled.h2`
-  font-size: 20px;
+  font-size: 2rem;
   color: ${(props) => props.theme.colors.black};
-  margin-bottom: 10px;
-  margin-top: 15px;
+  margin-bottom: 1rem;
+  margin-top: 1.5rem;
 `;
 
 export const ParagrafoCard = styled.pre`
-  font-size: 14px;
+  font-size: 1.4rem;
   color: #999;
   line-height: 1.3;
   margin-top: 1rem;
@@ -66,7 +66,7 @@ export const SpanCard = styled.span`
 export const ContainerMaisInfo = styled.div`
   width: 100%;
   position: relative;
-  border-top: 1px solid #e6e6e6 !important;
+  border-top: 0.1rem solid #e6e6e6 !important;
 `;
 
 export const ButtonMaisInfo = styled.button`
@@ -75,9 +75,9 @@ export const ButtonMaisInfo = styled.button`
   top: -3.2rem;
   width: 20rem;
   height: 2.5rem;
-  border-top: 1px solid #e6e6e6;
-  border-left: 1px solid #e6e6e6;
-  border-right: 1px solid #e6e6e6;
+  border-top: 0.1rem solid #e6e6e6;
+  border-left: 0.1rem solid #e6e6e6;
+  border-right: 0.1rem solid #e6e6e6;
   @media (max-width: 1024px) {
     right: -29.8rem;
    
@@ -100,6 +100,10 @@ export const ContainerSubMenuFooterBackgrand = styled.div`
   background-color: #e6e6e6;
   margin-top: -3.8rem;
   margin-bottom: 2rem;
+  @media (max-width: 1024px) {
+    height: 120rem;
+   
+  }
 `;
 
 export const ContanierDasColunas = styled.div`
@@ -110,8 +114,13 @@ export const ContanierDasColunas = styled.div`
   padding-top: 3.3rem;
   height: 31.1rem;
   @media (max-width: 1024px) {
-    max-width: 57rem;
-    margin: 0 5%;
+    
+    margin: 0 -20rem;
+    height: 100%;
+
+    display: flex;
+  flex-direction: column;
+  align-items: center;
    
   }
 
@@ -149,6 +158,8 @@ export const Ipad6ColInfoFooter = styled.div`
 `;
 
 export const Ipad2ColInfoFooter = styled.div`
+ position: relative;
+ top: 0rem;
   display: none;
   @media (max-width: 1024px) {
 
@@ -182,10 +193,23 @@ export const ImagemCardLeve3 = styled.img`
 
 export const ColunaDeMaisInfo = styled.ul`
   color: black;
+  @media (max-width: 1024px) {
+     
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+
 `;
 export const RowEmDestaque = styled.li`
   font-weight: 600;
   margin-bottom: 1.6rem;
+
+  @media (max-width: 1024px) {
+    font-size: 2.4rem;
+   
+   }
 `;
 export const RowInfo = styled.li``;
 export const ContainerSubFooter = styled.div`
@@ -201,21 +225,44 @@ export const ColunaSubFooterList = styled.ul`
   justify-content: space-around;
   margin-left: -2.8rem;
   @media (max-width: 1024px) {
- width: 30rem;
- margin-left: 0rem;
+    width: 85rem;
+    margin-left: 0rem;
+    flex-wrap: wrap;
+     
+    margin-bottom: 1rem;
+    font-size: 2.4rem !important;
+  }
+  @media (max-width: 600px) {
+display: flex;
+flex-direction: column;
+align-items: center;
+
+margin-left: -14rem;
   }
 `;
-export const RowSubFooter = styled.li``;
+export const RowSubFooter = styled.li`
+ @media (max-width: 1024px) {
+  line-height: 2.5;
+  margin-left: -2rem;
+  }
+`;
 
 
 
 export const ColunaSpanCopyright = styled.div`
  display: flex;
  flex-direction: column;
-padding-top:2.9rem;`;
+padding-top:2.9rem;
+
+`;
 
 export const SpanCopyright = styled.span`
   margin-top: 1.5rem;
   margin-left: 1.4rem;
   margin-bottom: 1.4rem;
+
+  @media (max-width: 1024px) {
+  font-size: 2rem !important;
+}
+
 `;

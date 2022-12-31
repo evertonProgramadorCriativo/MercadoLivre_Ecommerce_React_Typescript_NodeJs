@@ -18,21 +18,21 @@ background-color: white;
     position: relative;
     margin-top: 8rem;
     align-items: center;
-    padding: 1px 0px;
+    padding: 0.1rem 0rem;
 
     @media (max-width: 1024px) {
        
-      box-shadow: 5px 12px #1919e085;
-    border: 2px solid #c7c7e85c !important;
-    border-radius: 0 100px 100px 0;
-    width: 70rem;
+      box-shadow: 0.5rem 1.2rem  #1919e085;
+    border: 0.2rem solid #c7c7e85c !important;
+    border-radius: 0 10rem 10rem 0;
+    width: 81rem;
      }
 
      @media (max-width: 600px) {
        
-       box-shadow: 5px 12px #1919e085;
-     border: 2px solid #c7c7e85c !important;
-     border-radius: 0 100px 100px 0;
+       box-shadow: 0.5rem 1.2rem #1919e085;
+     border: 0.2rem solid #c7c7e85c !important;
+     border-radius: 0 10rem 10rem 0;
      width: 56rem;
       }
 
@@ -58,7 +58,7 @@ export const SecondDropdownList = styled.div`
   background: #fff;
   z-index: 55;
   
-    padding: 32px 0px 0px 30px;
+    padding: 3.2rem 0px 0px 3rem;
     font-size: 1.6rem;
     color: black;
 `;
@@ -71,6 +71,13 @@ export const FeesBox = styled.div`
 export const Safe = styled.div`
     margin-right: 1rem;
     margin-left: 0.5rem;
+
+    @media (max-width: 1024px) {
+       
+      margin-right: 1rem;
+    margin-left: 0.5rem;
+    width: 29rem;
+       }
 `;
 export const BoxImgMore= styled.div`
   width: 11.5rem;
@@ -82,7 +89,7 @@ export const BoxImgMore= styled.div`
        
       width: 8rem;
      position: relative;
-     left: -15px;
+     left: -1.5rem;
       }
 `;
 
@@ -134,15 +141,31 @@ export const Title = styled.h2`
  
 export const Caption = styled.h3`
   font-size: 1rem;
+
+  @media (max-width:1024px) {
+       
+    font-size: 1.4rem;
+    margin-top: 0.2rem;
+    color: blue;
+    
+         }
 `;
 export const VerticalLineBanner = styled.hr`
 border-left: 0.5rem solid #5697fa !important;
     height: 8rem;
      
-    margin: 0px 4px 0px  5px;
+    margin: 0px 0.4rem 0px  0.5rem;
+
+    @media (max-width: 1024px) {
+       
+      border-left: 0.6rem solid #5697fa !important;
+    height: 8rem;
+    margin: 0px 0.6rem 0px 0.7rem;
+ 
+      }
 `;
 export const VerticalBlackLineBanner = styled.hr`
-border-left: 0.5px solid #0000003b;
+border-left: 0.05rem solid #0000003b;
     height: 9rem;
     margin-right: 1.6rem;
 `;
