@@ -13,13 +13,14 @@ html, body, #root {
     height: 100%;
     // This defines what 1rem is
     font-size: 62.5%; //1 rem = 10px; 10px/16px = 62.5%
-    @media (max-width: 31.25em) { //400 / 16 = 31.25em  1em = 16px
-        font-size: 8%;
+    @media (max-width: 25.75em) { //412 / 16 = 25.75em  1em = 16px
+        font-size: 29%  ;
     }
-
+  
     @media (max-width: 37.5em) { //600 / 16 = 37.5em  1em = 16px
         font-size: 30%;
     }
+  
 
     @media (max-width: 56.25em) {//900 / 16 = 37.5em 
         font-size: 50%;
@@ -28,7 +29,7 @@ html, body, #root {
     @media (max-width: 64em) {//1024 / 16 = 37.5em 
         font-size:  56.25%;
     }
-
+  
 
   
 }

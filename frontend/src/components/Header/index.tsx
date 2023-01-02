@@ -91,7 +91,7 @@ const Header: React.FC = () => {
        <LogoIpad src={LogoSamll }  />
              <Nexus600pxForm>
                   <InputSearch
-                    placeholder="Buscar produtos, Marcas e muito mais ..."
+                    placeholder="Buscar produtos ..."
                     type="text"
                   />
                   <InputSearchButton>

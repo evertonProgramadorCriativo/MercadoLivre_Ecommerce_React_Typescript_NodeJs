@@ -11,6 +11,10 @@
    
 }
 
+.carousel .slide img{
+    object-fit: contain;
+ }
+
 .carousel-root:hover .ButtonLeft {
     height: 50px;
     width: 50px;
@@ -156,7 +160,19 @@
   }
  
       }
+
+      @media (max-width: 800px) {
+        .carousel .control-dots {
+           left: -18%;
+
+        }
+          }
       @media (max-width: 600px) {
+        .carousel .slide img{
+           width: 72% !important;
+           margin-left: -64rem !important;
+
+         }
         .carousel .control-dots {
             position: absolute;
             bottom: 0;
@@ -165,7 +181,7 @@
             text-align: center;
             width: 100%;
             z-index: 1;
-            left: -27%;
+            left: -24%;
         }
 
         .ButtonRight{
@@ -198,3 +214,34 @@
 .carousel .carousel-status {
     display: none !important;
 }
+
+@media (max-width: 412px) {
+    .carousel .slide img{
+       margin-left: -72rem;
+    }
+    .carousel .control-dots {
+   
+        left: -33%;
+    }
+    .carousel-root:hover .ButtonRight {
+       display: none;
+    }
+    .carousel-root:hover .ButtonLeft {
+        display: none;
+    }
+
+    .carousel .slide img{
+        width: 66%;
+    }
+      }
+
+      @media (max-width: 360px) {
+        .carousel .control-dots { left: -35%;}
+          }
+
+          @media (max-width: 320px) {
+            .carousel .control-dots { left: -37%;}
+              }   
+     
+
+       

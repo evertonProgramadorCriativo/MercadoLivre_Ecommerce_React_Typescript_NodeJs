@@ -68,7 +68,9 @@ export const LogoIpad = styled.img`
     margin-right: 1.8rem;
   }
 
- 
+  @media (max-width: 412px) {
+   height: 5rem;
+  }
  
 `;
 export const CepIcon = styled.img`
@@ -192,7 +194,20 @@ export const InputSearch = styled.input`
     padding-left: 2rem;
    
   }
- 
+  @media (max-width: 412px) {
+    
+    width:42rem;
+   }
+
+   @media (max-width: 360px) {
+    
+    width:38rem;
+   }
+
+   @media (max-width: 320px) {
+    
+    width:33rem;
+   }
 `;
 
 export const InputSearchButton = styled.button`
@@ -257,6 +272,9 @@ export const InputSearchButtonVerticalLine = styled.hr`
     height: 2.8rem;
     margin-bottom: -5px;
     }
+
+   
+   
    
 `;
 

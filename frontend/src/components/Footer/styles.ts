@@ -34,8 +34,24 @@ margin-left: 20%;
   }
   @media (max-width: 600px) {
    
-   margin-left: 8%;
+   margin-left: 7%;
      }
+
+     @media (max-width: 412px) {
+   
+   margin-left: 1%;
+     }
+
+     @media (max-width: 360px) {
+   
+   margin-left: -1% ;
+     }
+
+     @media (max-width: 320px) {
+   
+   margin-left: -2% ;
+     }
+
 `;
 export const ImagemIcon = styled.img``;
 export const SubTituloCard = styled.h2`
@@ -83,7 +99,24 @@ export const ButtonMaisInfo = styled.button`
    
   }
   @media (max-width: 600px) {
-    right: -18.4rem;
+    right: -14rem;
+    font-size: 2rem;
+    width: 29rem;
+    height: 3.6rem;
+    top: -4rem;
+  }
+  @media (max-width: 412px) {
+    right: -6rem;
+   
+  }
+
+  @media (max-width: 360px) {
+    right: -3.3rem;
+   
+  }
+
+  @media (max-width: 320px) {
+    right: -1.6rem;
    
   }
 `;
@@ -101,7 +134,12 @@ export const ContainerSubMenuFooterBackgrand = styled.div`
   margin-top: -3.8rem;
   margin-bottom: 2rem;
   @media (max-width: 1024px) {
-    height: 120rem;
+    height: 128rem;
+   
+  }
+
+  @media (max-width: 600px) {
+    margin-top: -4.1rem;
    
   }
 `;
@@ -126,7 +164,25 @@ export const ContanierDasColunas = styled.div`
 
   @media (max-width: 600px) {
     max-width: 44rem;
-    margin: 0 0%;
+    margin: 0 5.2%;
+   
+  }
+
+  @media (max-width: 412px) {
+    max-width: 44rem;
+    margin: 0 -1%;
+   
+  }
+
+  @media (max-width: 360px) {
+    max-width: 44rem;
+    margin: 0 -3%;
+   
+  }
+
+  @media (max-width: 320px) {
+    max-width: 44rem;
+    margin: 0 -6%;
    
   }
 `;
@@ -139,6 +195,8 @@ export const ContanierDasColunas = styled.div`
 
     display: none;
   }
+
+ 
 `;
 
 export const  IpadSubFooter2List = styled.div`
@@ -210,6 +268,8 @@ export const RowEmDestaque = styled.li`
     font-size: 2.4rem;
    
    }
+
+  
 `;
 export const RowInfo = styled.li``;
 export const ContainerSubFooter = styled.div`
@@ -239,11 +299,33 @@ align-items: center;
 
 margin-left: -14rem;
   }
+
+  @media (max-width: 412px) {
+ 
+
+margin-left: -20rem;
+  }
+
+  @media (max-width: 360px) {
+ 
+ 
+ margin-left: -22rem;
+   }
+
+   @media (max-width: 320px) {
+ 
+
+ margin-left: -24rem;
+   }
 `;
 export const RowSubFooter = styled.li`
  @media (max-width: 1024px) {
   line-height: 2.5;
   margin-left: -2rem;
+  }
+
+  @media (max-width: 360px) {
+ font-size: 1.8rem;
   }
 `;
 

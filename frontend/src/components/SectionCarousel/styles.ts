@@ -33,9 +33,24 @@ background-color: white;
        box-shadow: 0.5rem 1.2rem #1919e085;
      border: 0.2rem solid #c7c7e85c !important;
      border-radius: 0 10rem 10rem 0;
-     width: 56rem;
+     width: 64rem;
       }
 
+
+      @media (max-width: 412px) {
+       
+       box-shadow: 0.5rem 1.2rem #1919e085;
+     border: 0.2rem solid #c7c7e85c !important;
+     border-radius: 0 10rem 10rem 0;
+     width: 40.1rem;
+      }
+
+      @media (max-width: 360px) {
+       
+       box-shadow: 0.5rem 1.2rem #1919e085;
+    
+     width: 32.1rem;
+      }
 `;
 export const ImagemBanner = styled.img<ContainerProps>`
   height: 4.8rem;
@@ -46,7 +61,10 @@ export const Fees = styled.div`
   display: flex;
     align-items: center;
     width:28.6rem;
-   
+    @media (max-width: 600px) {
+       display: none;
+       
+        }
    
 `;
 export const SecondDropdownList = styled.div`
@@ -66,6 +84,7 @@ export const SecondDropdownList = styled.div`
 export const FeesBox = styled.div`
    display: flex;
     flex-direction: column;
+  
 `;
 
 export const Safe = styled.div`
@@ -78,6 +97,12 @@ export const Safe = styled.div`
     margin-left: 0.5rem;
     width: 29rem;
        }
+
+       @media (max-width: 600px) {
+       
+       
+     width: 30rem;
+        }
 `;
 export const BoxImgMore= styled.div`
   width: 11.5rem;
@@ -89,8 +114,15 @@ export const BoxImgMore= styled.div`
        
       width: 8rem;
      position: relative;
-     left: -1.5rem;
+     left: 17.5rem;
       }
+
+      @media (max-width: 412px) {
+       
+       width: 8rem;
+      position: relative;
+      left: -2rem;
+       }
 `;
 
 
@@ -134,9 +166,14 @@ export const Title = styled.h2`
 
   @media (max-width: 600px) {
        
-    font-size: 1.4rem;
+    font-size: 2.4rem;
  
       }
+      @media (max-width: 412px) {
+       
+       font-size: 1.6rem;
+    
+         }
 `;
  
 export const Caption = styled.h3`
@@ -163,11 +200,17 @@ border-left: 0.5rem solid #5697fa !important;
     margin: 0px 0.6rem 0px 0.7rem;
  
       }
+      
 `;
 export const VerticalBlackLineBanner = styled.hr`
 border-left: 0.05rem solid #0000003b;
     height: 9rem;
     margin-right: 1.6rem;
+
+    @media (max-width: 600px) {
+       display: none;
+       
+        }
 `;
 export const DropdownContent = styled.div`
 width: 23.3rem;

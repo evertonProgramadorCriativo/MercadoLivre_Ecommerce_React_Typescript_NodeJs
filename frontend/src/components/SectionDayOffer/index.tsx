@@ -49,7 +49,7 @@ const SectionDayOffer: React.FC = () => {
         breakpoint: 1024,
         settings: {
           slidesToShow: 4,
-          slidesToScroll: 4,
+          slidesToScroll: 6,
           infinite: false,
           dots: false
         }
@@ -58,7 +58,7 @@ const SectionDayOffer: React.FC = () => {
         breakpoint: 600,
         settings: {
           slidesToShow: 4,
-          slidesToScroll: 5,
+          slidesToScroll: 6,
           initialSlide: 2
         }
       },
@@ -66,7 +66,7 @@ const SectionDayOffer: React.FC = () => {
         breakpoint: 480,
         settings: {
           slidesToShow: 4,
-          slidesToScroll: 5
+          slidesToScroll: 6
         }
       }
        
