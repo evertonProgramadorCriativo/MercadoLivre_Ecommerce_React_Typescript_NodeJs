@@ -1,6 +1,6 @@
 import React from "react";
- 
-const Product: React.FC = (): JSX.Element => {
+import "./styles.css"
+const ProductDetails: React.FC = (): JSX.Element => {
   return (
   <div className="Product">
     <div className="Product__thumbnail">
@@ -14,4 +14,4 @@ const Product: React.FC = (): JSX.Element => {
   );
 };
 
-export  {Product}
+export  { ProductDetails } 

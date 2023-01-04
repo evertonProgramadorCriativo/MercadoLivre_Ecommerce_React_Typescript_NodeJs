@@ -1,8 +1,24 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
+import { ProductDetails } from "./ProductDetails"
+ 
 import {
   Container,Box1,Box2
 } from "./styles";
+
+interface ProductInterface {
+  name: string;
+  price: number;
+  image: string;
+}
+
+interface StateInterface {
+  products: ProductInterface[]
+}
 const Product: React.FC = () => {
+
+  const [state, setState] = useState<StateInterface>({
+    products:[]
+  })
   useEffect(() => {
     fetch('https://fakestoreapi.com/products')
     .then(res => res.json())
@@ -10,11 +26,17 @@ const Product: React.FC = () => {
   }, [])
   return (
     <React.Fragment>
-      <Container>
-      <h1>Product</h1>
-      <Box1 />
+     
+    
+        <Container> 
+       
+      <Box1>
+        <ProductDetails />
+      </Box1>
       <Box2 />
-      </Container>
+      </Container>  
+ 
+   
  
     </React.Fragment>
   );
